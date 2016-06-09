@@ -13,4 +13,5 @@ export class HelloService {
         return this.http.get('/test/get/json')
             .map((res:Response) => res.json());
     }
+
 }
